@@ -1,1 +1,10 @@
-javascript:(function(){var h="",s;if(window.getSelection){s=window.getSelection();}else if((s=document.selection)&&s.type=="Text"){h=s.createRange().htmlText;}window.open('https://www.google.com/search?q=site%3Asnopes.com+'+s);})()
+javascript: (function () {
+    var h = "",
+        s;
+    if (window.getSelection) {
+        s = window.getSelection();
+    } else if ((s = document.selection) && s.type == "Text") {
+        h = s.createRange().htmlText;
+    }
+    window.open('https://www.google.com/search?q=site%3Asnopes.com+' + s);
+})()
