@@ -1,1 +1,10 @@
-javascript:(function(){var h="",s;if(window.getSelection){s=window.getSelection();}else if((s=document.selection)&&s.type=="Text"){h=s.createRange().htmlText;}window.open('http://search.atomz.com/search/?sp-q='+s+'&x=-865&y=-317&sp-a=00062d45-sp00000000&sp-advanced=1&sp-p=all&sp-w-control=1&sp-w=alike&sp-date-range=-1&sp-x=any&sp-c=100&sp-m=1&sp-s=0');})()
+javascript: (function () {
+    var h = "",
+        s;
+    if (window.getSelection) {
+        s = window.getSelection();
+    } else if ((s = document.selection) && s.type == "Text") {
+        h = s.createRange().htmlText;
+    }
+    window.open('http://search.atomz.com/search/?sp-q=' + s + '&x=-865&y=-317&sp-a=00062d45-sp00000000&sp-advanced=1&sp-p=all&sp-w-control=1&sp-w=alike&sp-date-range=-1&sp-x=any&sp-c=100&sp-m=1&sp-s=0');
+})()
